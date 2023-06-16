@@ -1,0 +1,21 @@
+.game-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.game-image {
+    border-radius: 10px;
+    max-width: 128px;
+    max-height: 128px;
+}
+
+.game-grid {
+    /*display: grid;*/
+    /*grid-template-columns: repeat(4, 1fr);*/
+}
+
+.game-card h5 {
+    text-align: center;
+}
