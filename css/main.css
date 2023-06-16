@@ -19,3 +19,13 @@
 .game-card h5 {
     text-align: center;
 }
+
+.icon-text-align {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.game-jam-card {
+
+}
