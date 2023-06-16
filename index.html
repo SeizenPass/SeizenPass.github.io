@@ -1,2 +1,49 @@
-WHY AM I
-SCARED OF THIS
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/pico.min.css">
+    <title>Kurman Amiran</title>
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+<main class="container">
+    <nav aria-label="breadcrumb">
+        <ul>
+            <li><a href="pages/test.html">Home</a></li>
+            <li><a href="#">Category</a></li>
+        </ul>
+    </nav>
+    <hgroup>
+        <h2>Amiran Kurman | SeizenPass</h2>
+        <h3>Passionate Developer</h3>
+    </hgroup>
+    <hr>
+    <blockquote>
+        <p>Hi! I'm a <b>Unity Developer</b> based in Astana, Kazakhstan!</p>
+        <ul>
+            <li>Professionally work with <b>Unity</b> and <b>C#</b> from 2021</li>
+            <li>Developed many commercial games for mobile platforms</li>
+            <li><span id="years"></span> years old</li>
+        </ul>
+
+        <footer>
+            <cite>- Live a life with no regrets.</cite>
+        </footer>
+    </blockquote>
+
+    <h4>Commercial Mobile Games I Worked On</h4>
+    <div class="grid">
+        <article>1</article>
+        <article>1</article>
+        <article>1</article>
+    </div>
+</main>
+</body>
+<script>
+    let yearsSpan = document.getElementById('years')
+    yearsSpan.innerText = calculateYearsPassed("2003-01-15").toString()
+</script>
+</html>
